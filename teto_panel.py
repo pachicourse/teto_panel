@@ -1,5 +1,5 @@
 import subprocess
-import wp as wp
+import wiringpi as wp
 import time
 
 RIGHT_ARM_PIN = 5
