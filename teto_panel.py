@@ -1,5 +1,5 @@
 import subprocess
-import wiringpi as wp
+import wp as wp
 import time
 
 RIGHT_ARM_PIN = 5
@@ -10,11 +10,11 @@ HEAD_PIN = 26
 
 def pin_setup():
     wp.wiringPiSetupGpio()
-    wiringpi.pinMode(RIGHT_ARM_PIN, 0)
-    wiringpi.pinMode(LEFT_ARM_PIN, 0)
-    wiringpi.pinMode(RIGHT_LEG_PIN, 0)
-    wiringpi.pinMode(LEFT_LEG_PIN, 0)
-    wiringpi.pinMode(HEAD_PIN, 0)
+    wp.pinMode(RIGHT_ARM_PIN, 0)
+    wp.pinMode(LEFT_ARM_PIN, 0)
+    wp.pinMode(RIGHT_LEG_PIN, 0)
+    wp.pinMode(LEFT_LEG_PIN, 0)
+    wp.pinMode(HEAD_PIN, 0)
 
 def check_tilt_and_aplay():
     # must be pull-down
