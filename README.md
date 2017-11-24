@@ -19,6 +19,8 @@ $ chmod 755 setup.sh
 ```
 
 ## 実行
+teto_panel.pyと同階層に**voice**ディレクトリを作成し、そこに音声ファイルを入れる。
+
 ```
 $ sudo python3 teto_panel
 ```
