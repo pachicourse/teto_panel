@@ -13,7 +13,7 @@ $ sudo ./setup.sh
 ```
 $ sudo ./setup.sh
 ```
-でエラーが出たら
+の部分でエラーが出たら
 ```
 $ chmod 755 setup.sh
 ```
