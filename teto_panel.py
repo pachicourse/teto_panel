@@ -21,7 +21,7 @@ def check_tilt_and_aplay():
     if(wp.digitalRead(RIGHT_ARM_PIN) == 1):
         subprocess.call("aplay voice/right_arm.wav", shell=True)
         return
-    if(wp.digitalRead(LEFT_ARM_PIN_LEG_PIN) == 1):
+    if(wp.digitalRead(LEFT_ARM_PIN) == 1):
         subprocess.call("aplay voice/left_arm.wav", shell=True)
         return
     if(wp.digitalRead(RIGHT_LEG_PIN) == 1):
