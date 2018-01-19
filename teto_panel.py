@@ -48,7 +48,7 @@ def check_tilt_and_aplay(vc):
         subprocess.call("aplay voice/" + RIGHT_LEG_VOICE[vc], shell=True)
         return True
     if(wp.digitalRead(LEFT_LEG_PIN) == 1):
-        subprocess.call("aplay voice/" + LEFT_LEG_VOICE[vc]_, shell=True)
+        subprocess.call("aplay voice/" + LEFT_LEG_VOICE[vc], shell=True)
         return True
     if(wp.digitalRead(HEAD_PIN) == 1):
         subprocess.call("aplay voice/" + HEAD_VOICE[vc], shell=True)
