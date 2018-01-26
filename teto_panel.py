@@ -26,7 +26,7 @@ LEFT_LEG_VOICE = ['10.君は実に馬鹿だな.wav',
 
 HEAD_VOICE = ['13.撫でてもらえるのは嬉しいなぁ.wav', 
               '14.今日の髪型キマってるでしょ.wav',
-              '15.アイドルやってる重音テトです〜.wav']
+              'singer.wav']
 
 def pin_setup():
     wp.wiringPiSetupGpio()
